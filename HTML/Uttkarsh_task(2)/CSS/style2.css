@@ -1,0 +1,195 @@
+/* 
+
+## stucture is---
+selector {
+property: value;
+}
+*/
+
+h1{
+   color: blue;
+}
+h2{
+   color:green;
+   font-size:2rem;
+}
+p{
+   color:gray;
+}
+ul{
+   background-color:beige;
+   width:50%;
+   font-size:2rem;
+}
+/*Lesson 2: Class selector
+
+Now look at your HTML:
+
+<p class="tagline">Learning Web Development</p>
+
+We don't necessarily want to modify every <p>. We want only this particular type of element.
+
+That's where a class is useful.
+
+In CSS, class selectors start with*/
+.tagline{
+   color:purple;
+}
+.important{
+   color:red;
+}
+.service{
+   color:rgb(120, 0, 233);
+}
+.service{
+   background-color:lightgray;
+}
+li{
+   color:brown;
+}
+/*
+Lesson 3: ID selector
+
+Your HTML contains:
+
+<h1 id="main-heading">Welcome to My Website</h1>
+
+For an ID, CSS uses #.
+
+#main-heading {
+    color: darkblue;
+}
+    Remember these three:
+HTML                       CSS
+
+<h1>                 →     h1
+
+class="service"      →     .service
+
+id="main-heading"    →     #main-heading
+*/
+#main-heading{
+   color:darkblue;
+}
+/*
+red                     → Named color
+
+#ff0000                 → HEX
+
+rgb(255, 0, 0)          → RGB
+
+rgba(255, 0, 0, 0.5)   → RGB + transparency
+*/
+
+
+
+/*
+
+==========================================================
+Task 4 has three topics, and we'll learn them on the same HTML website you're already using:
+
+Units in CSS
+Box Model in CSS
+Texts and Fonts in CSS
+=================================================
+1. Units in CSS
+
+A unit tells the browser how large something should be.
+
+*/
+h1{
+
+   font-size:60px;
+}
+h2{
+
+   font-size:40px;
+}
+/*
+B. % — Percentage
+
+% is a relative unit.
+*/
+.service{
+   width: 50%;
+}
+
+
+/*
+rem is relative to the root (html) font size.
+1rem=16px
+0.5rem = 8px
+1rem   = 16px
+1.5rem = 24px
+2rem   = 32px
+3rem   = 48px
+*/
+p{
+   font-size:1.5rem;
+}
+
+/*
+
+em is relative to the font size of the current/parent context.
+
+*/
+.service {
+    font-size: 20px;
+}
+
+.service h3 {
+
+    font-size: 2em;
+}
+/*
+vw and vh
+
+These relate to the browser viewport.
+
+vw = viewport width.
+
+
+*/
+.service{
+   width:70vh;
+}
+/*
+px  → fixed pixels
+%   → percentage
+rem → relative to root font size
+em  → relative to font size context
+vw  → viewport width
+vh  → viewport height
+/*
+/*
+CSS BOX MODEL
+┌───────────────────────────────┐
+│            MARGIN             │
+│   ┌───────────────────────┐   │
+│   │        BORDER         │   │
+│   │   ┌───────────────┐   │   │
+│   │   │    PADDING    │   │   │
+│   │   │   ┌───────┐   │   │   │
+│   │   │   │CONTENT│   │   │   │
+│   │   │   └───────┘   │   │   │
+│   │   └───────────────┘   │   │
+│   └───────────────────────┘   │
+└───────────────────────────────┘
+Content → Padding → Border → Margin
+*/
+.service {
+width:400px;
+}
+/*
+Padding
+
+Padding = space inside the box, around the content.
+
+*/
+.service {
+    width:400px
+    background-color: lightgray;
+    padding:25px;
+    border:5px solid black;
+    margin:40px;
+}

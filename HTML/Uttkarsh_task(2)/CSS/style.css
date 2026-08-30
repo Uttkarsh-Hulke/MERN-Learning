@@ -1,0 +1,36 @@
+body {
+    background-color:blanchedalmond;
+}
+h1{
+    color:rebeccapurple;
+    text-align:center;
+    font-size: 100ps;
+}
+p{
+    color:brown;
+    font-size:20px;
+}
+h2{
+    color:red;
+    font-size:50px;
+}
+li{
+     color:pink;
+    font-size:35px;
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+h3{
+     font-size: 28px;
+    font-weight: 600;
+}
+p{
+    font-size:1.1rem;
+}
