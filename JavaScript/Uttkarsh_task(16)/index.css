@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+nav {
+    height: 70px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+nav h3 {
+    color: rgb(64, 72, 80);
+}
+nav button {
+    border: none;
+    background-color: rgb(238, 245, 255);
+    color: rgb(77, 143, 232);
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+.search-box {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.search-box input {
+    width: 180px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(243, 245, 245);
+    border-radius: 10px;
+    outline: none;
+}
+.search-box button {
+    padding: 12px 25px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(112, 37, 216);
+    color: rgb(255, 255, 255);
+}
+.student-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.card {
+    padding: 15px;
+    background-color: rgb(241, 243, 243);
+    border-radius: 10px;
+    color: rgb(48, 56, 64);
+}
+.card p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+@media (max-width: 800px) {
+    .student-cards {
+     grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+    width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .student-cards {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        width: 90%;
+    }
+    nav {
+        padding: 0 20px;
+    }
+}

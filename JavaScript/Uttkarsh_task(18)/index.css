@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1 {
+    margin: 0;
+    padding: 12px;
+    background-color: wheat;
+    font-size: 40px;
+    font-weight: bold;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+.box{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+.red,
+.blue,
+.green,
+.yellow {
+    background-color: white;
+}
+.greet-section {
+    margin-top: 85px;
+}
+.greet-section {
+    margin-top: 85px;
+}

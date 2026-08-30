@@ -1,0 +1,11 @@
+let P=50000;
+let r=0.075;
+let n=7;
+let t=5;
+let A=P*(1+r/n)**(n*t);
+let CI = A - P;
+console.log("Principle amount=",P);
+console.log("Interest rate", r * 100 + "%");
+console.log("Compounding frequency =", n);
+console.log("Time period =",t+"years");
+console.log("Compound interest is:", CI);
