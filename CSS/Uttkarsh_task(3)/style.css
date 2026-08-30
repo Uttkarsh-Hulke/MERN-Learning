@@ -1,0 +1,46 @@
+/*
+for background color
+*/
+body{
+    background-color:orangered;
+}
+.head{
+    color:purple;
+}
+/*
+using class=head id=bglime id calling with # 
+*/
+#bglime{
+    background-color: lime;
+}
+#bglime span{
+color:red;
+}
+.head{
+    color:purple;
+}
+#para{
+    color:green;
+}
+#para span{
+    color:whitesmoke;
+}
+h3{
+    color:yellowgreen;
+}
+/*
+:nth-child()
+*/
+ul li:nth-child(1) a{
+    background-color: yellow;
+}
+ul li:nth-child(2) a{
+    background-color: blanchedalmond;
+}
+
+ol li:nth-child(2){
+    color:blue;
+}
+ol li:nth-child(3){
+    color:beige;
+}

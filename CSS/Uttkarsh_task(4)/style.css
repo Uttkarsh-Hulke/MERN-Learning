@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*
+25% space on the left
+25% space on the right
+10% space on the top and bottom
+
+auto (left & right margins) → Centers the container, leaving about 25% space on each side
+
+*/
+.container{
+    width:50vw;
+    margin:10vh auto;
+
+
+}
+button{
+    background: linear-gradient(to right, orange, green);
+    width: 100%;
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    cursor: pointer; /*when goes to CLICK cursor changes*/
+}
+body{
+    background-color: beige;
+    margin:0;
+}
